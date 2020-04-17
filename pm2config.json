@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "elasticstore",
+            "script": "npm",
+            "args": "start",
+            "cwd": "/home/jaime_fouche/elasticstore/",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
