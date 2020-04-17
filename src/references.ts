@@ -16,4 +16,4 @@ const references: Array<Reference> = [
 
 ]
 
-export default references
+export default references;
