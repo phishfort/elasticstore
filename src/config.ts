@@ -20,7 +20,7 @@ class Config {
   public ES_PASS: string = process.env.ES_PASS || null
   public ES_PROTOCOL: string = process.env.ES_PROTOCOL || null
   public ES_OPTS: ElasticSearchOptions = {
-    requestTimeout: 60000,
+    requestTimeout: 1000000,
     maxSockets: 100,
     log: 'error'
   }
